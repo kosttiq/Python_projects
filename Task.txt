@@ -1,0 +1,21 @@
+Задача состоит в создании программы, которая, учитывая показатель важности задания, будет высчитывать оплату за выполненное задание.
+Учитывается количество заданий и их важность.
+Известно: зарплата, количество заданий, коэффициент их важности для компании [коэффициент важности принимает значения от 1 до 3 ] 
+Как работает программа:
+- Вводится зарплата.
+- Вводится суммарное количество заданий.
+- Вводится количество заданий с коээфициентом важности 3, коээфициентом важности 2, коээфициентом важности 1.
+- Для выполнения расчёта оплаты за задание, требуется ввести коэффициент важности [в зависимости]
+- Учитывая разные параметры и коэффициенты, выводится сумма за выполнение задание с вышезаданным коэффициентом важности.
+- Проверка правильности. Если сумма стоимости каждого задания, заданного выше, равняется зарплате, то всё верно. В другом случае, неверно.
+
+The task is to create a program that, given the indicator of the importance of the task, will calculate the payment for the completed task.
+The number of tasks and their importance are taken into account.
+Known: salary, number of tasks, coefficient of their importance for the company [importance coefficient takes values from 1 to 3]
+How the program works:
+- Introduced salary.
+- Enter the total number of tasks.
+- Enter the number of tasks with importance factor 3, importance factor 2, importance factor 1.
+- To calculate the payment for the task, you need to enter the coefficient of importance [depending]
+- Taking into account different parameters and coefficients, the amount for completing the task with the above importance coefficient is displayed.
+- Validation. If the sum of the cost of each task given above equals the salary, then everything is correct. Otherwise, it's wrong.
