@@ -1,4 +1,4 @@
-#SLICES
+#SLICES (срезы)
 a = str(input())
 print(a[2])
 print(a[-2])
@@ -9,3 +9,7 @@ print(a[0::2])
 print(a[::-1])
 print(a[::-2])
 print(len(a))
+
+#STR QUANTITY (кол-во строк)
+a = str(input())
+print(a.count(' ')+1)
