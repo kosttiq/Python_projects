@@ -96,6 +96,29 @@ while n != 0:
     n = int(input())
 print(max2)
 
+#FIBONACCI NUMBERS
+n = int(input())
+if n == 0:
+    print(0)
+else:
+    a, b = 0, 1
+    for i in range(2, n + 1):
+        a, b = b, a + b
+    print(b)
+    
+#STANDEARD DEVIATION
+import math
+sum = 0
+sum_sq = 0
+x = int(input())
+n = 0
+while x != 0:
+    n += 1
+    sum += x
+    sum_sq += x ** 2
+    x = int(input())
+print(math.sqrt((sum_sq - sum ** 2 / n) / (n - 1)))
+
 
 
 
